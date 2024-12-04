@@ -22,7 +22,7 @@ rustc-hash = { version = "1.1.0", default-features = false }
 rustybuzz = { version = "0.14", default-features = false, features = ["libm"] }
 self_cell = "1.0.1"
 smol_str = { version = "0.2.2", default-features = false }
-swash = { version = "0.1.17", optional = true }
+swash = { git = "https://github.com/CharlesChen0823/swash.git", branch = "test_breakchange", optional = true }
 syntect = { version = "5.1.0", optional = true }
 sys-locale = { version = "0.3.1", optional = true }
 ttf-parser = { version = "0.21", default-features = false }
